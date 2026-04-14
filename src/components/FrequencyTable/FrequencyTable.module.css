@@ -1,0 +1,28 @@
+.tableWrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.th {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 2px solid #ccc;
+  font-weight: 600;
+  color: #111;
+}
+
+.td {
+  padding: 0.45rem 0.75rem;
+  border-bottom: 1px solid #e5e5e5;
+  color: #222;
+}
+
+tbody tr:last-child .td {
+  border-bottom: none;
+}

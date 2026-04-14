@@ -149,7 +149,7 @@ Criar `src/components/TextInputSection/TextInputSection.tsx` e `TextInputSection
 
 ---
 
-### T07 — Criar componente `FrequencyTable`
+### [x] T07 — Criar componente `FrequencyTable`
 
 **O que fazer:**
 Criar `src/components/FrequencyTable/FrequencyTable.tsx` e `FrequencyTable.module.css`. Props: `interface FrequencyTableProps { entries: WordEntry[] | null }`. Quando `entries` é `null`, retornar `null`. Quando `entries` é array (mesmo vazio), renderizar `<table>` com `<thead>` (colunas: "Palavra", "Frequência") e `<tbody>` com uma `<tr>` por entry. Envolver em `<div>` com `overflow-x: auto` para responsividade.
