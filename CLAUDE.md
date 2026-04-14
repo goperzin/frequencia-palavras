@@ -180,9 +180,11 @@ Leia o PRD.md para entender **o quê** construir. Leia o SPEC.md para entender *
 - [x] **T07** — Componente `FrequencyTable` criado com 5 testes passando
 - [x] **T08** — `App.tsx` montado com estado e fluxo completo, 6 testes passando
 - [x] **T09** — Estilização responsiva e acessibilidade concluída; 42 testes passando
+- [x] **T10** — Revisão final concluída: `tsc --noEmit` sem erros, 42/42 testes, cobertura 100% em todos os arquivos testáveis
 
 ### Tarefas pendentes (por ordem de execução)
-- [ ] T10 — Revisão final: TypeScript e testes
+
+Nenhuma — Sprint 1 concluída.
 
 ### Decisões técnicas tomadas (não previstas no SPEC)
 
@@ -200,3 +202,12 @@ O SPEC sugeria `/[^a-záàâãéèêíïóôõúüçñ\s]/gi`. Substituído por 
 
 **Cálculo do teste de limite de 2048 caracteres corrigido**
 O SPRINT estimava 512 repetições de `"word "`, mas `5 × 512 = 2559 > 2048`. Corrigido para 409 repetições (`5 × 409 = 2045`, trimEnd → 2044 chars).
+
+**`src/index.css` adicionado para reset global (T09)**
+A estrutura do SPEC não listava um arquivo de reset global, mas `body { margin: 0 }` e `box-sizing: border-box` são necessários para garantir layout sem overflow em 320px. Arquivo criado em `src/index.css` e importado em `main.tsx`.
+
+**Cor de warning do CharCounter corrigida para WCAG AA (T09)**
+`#b7770d` tinha contraste ~3.7:1 sobre branco — abaixo do mínimo de 4.5:1. Substituído por `#875a00` (contraste ~6.0:1).
+
+**`@vitest/coverage-v8` e `@testing-library/dom` adicionados como devDependencies (T10)**
+`@vitest/coverage-v8@1.6.1` é necessário para `--coverage` funcionar com Vitest 1.x. `@testing-library/dom` é peer dependency de `@testing-library/user-event` que não estava instalada explicitamente; sua ausência causava falha dos testes após a instalação do coverage provider.

@@ -214,7 +214,7 @@ Revisar todos os CSS Modules e garantir: layout funcional em 320px (mobile); tab
 
 ---
 
-### T10 — Revisão final: TypeScript e testes
+### [x] T10 — Revisão final: TypeScript e testes
 
 **O que fazer:**
 Executar `npx tsc --noEmit` e corrigir todos os erros. Executar `npm run test` e garantir que todos os testes passam. Verificar cobertura mínima: `analyzeFrequency` 100%, componentes principais ≥ 80%.
