@@ -86,7 +86,7 @@ Criar `src/components/ErrorMessage/ErrorMessage.tsx` e `ErrorMessage.module.css`
 
 ---
 
-### T04 — Criar componente `CharCounter`
+### [x] T04 — Criar componente `CharCounter`
 
 **O que fazer:**
 Criar `src/components/CharCounter/CharCounter.tsx` e `CharCounter.module.css`. Props: `interface CharCounterProps { current: number; max: number }`. Renderizar `{current} / {max}`. Aplicar classe CSS de aviso quando `current >= max * 0.8` e classe de perigo quando `current >= max * 0.95`. Usar `aria-live="polite"` para acessibilidade.

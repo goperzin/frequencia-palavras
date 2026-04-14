@@ -1,0 +1,15 @@
+.counter {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.warning {
+  font-size: 0.85rem;
+  color: #b7770d;
+}
+
+.danger {
+  font-size: 0.85rem;
+  color: #c0392b;
+  font-weight: 600;
+}
