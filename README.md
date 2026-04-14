@@ -146,3 +146,4 @@ O projeto mantém **100% de cobertura** em todos os arquivos testáveis (`analyz
 | [PRD.md](PRD.md) | Requisitos funcionais e não-funcionais, público-alvo, métricas de sucesso, escopo v1 e v2 |
 | [SPEC.md](SPEC.md) | Stack, arquitetura de componentes, estrutura de dados, edge cases e o que testar |
 | [CLAUDE.md](CLAUDE.md) | Instruções para o agente de IA (convenções, restrições, estado atual do projeto) |
+| [SPRINT.md](SPRINT.md) | Tarefas da Sprint 1 (T01–T10), critérios de aceite e ordem de execução |
