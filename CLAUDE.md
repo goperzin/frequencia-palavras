@@ -176,9 +176,9 @@ Leia o PRD.md para entender **o quê** construir. Leia o SPEC.md para entender *
 - [x] **T03** — Componente `ErrorMessage` criado com 3 testes passando
 - [x] **T04** — Componente `CharCounter` criado com 6 testes passando
 - [x] **T05** — Componente `TranslateButton` criado com 3 testes passando
+- [x] **T06** — Componente `TextInputSection` criado com 6 testes passando
 
 ### Tarefas pendentes (por ordem de execução)
-- [ ] T06 — Criar componente `TextInputSection` *(depende de T04, T05)*
 - [ ] T07 — Criar componente `FrequencyTable`
 - [ ] T08 — Montar `App.tsx` com estado e fluxo completo *(depende de T03, T06, T07)*
 - [ ] T09 — Estilização responsiva e acessibilidade

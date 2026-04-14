@@ -127,7 +127,7 @@ Criar `src/components/TranslateButton/TranslateButton.tsx` e `TranslateButton.mo
 
 ---
 
-### T06 — Criar componente `TextInputSection`
+### [x] T06 — Criar componente `TextInputSection`
 
 **O que fazer:**
 Criar `src/components/TextInputSection/TextInputSection.tsx` e `TextInputSection.module.css`. Props: `interface TextInputSectionProps { value: string; onChange: (text: string) => void; onSubmit: () => void; maxLength: number }`. Renderizar: `<label>` + `<textarea>` com `maxLength`, `aria-label="Texto para análise"`, `rows={10}`; `<CharCounter current={value.length} max={maxLength} />`; `<TranslateButton onClick={onSubmit} />`.
