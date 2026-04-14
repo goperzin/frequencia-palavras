@@ -171,7 +171,7 @@ Criar `src/components/FrequencyTable/FrequencyTable.tsx` e `FrequencyTable.modul
 
 ---
 
-### T08 — Montar `App.tsx` com estado e fluxo completo
+### [x] T08 — Montar `App.tsx` com estado e fluxo completo
 
 **O que fazer:**
 Implementar `App.tsx` com os estados: `inputText: string`, `entries: WordEntry[] | null`, `error: string | null`. Implementar `handleAnalyze`: se `inputText.trim()` vazio → `setError("Digite um texto para analisar.")` e retornar; executar `analyzeFrequency(inputText)`; se resultado for array vazio → `setError("Nenhuma palavra encontrada no texto.")` e retornar; caso contrário `setEntries(resultado)` e `setError(null)`. Montar os componentes: `<TextInputSection>`, `<ErrorMessage>`, `<FrequencyTable>`. Importar e aplicar `App.module.css` com layout centralizado responsivo (max-width 800px, padding lateral).
