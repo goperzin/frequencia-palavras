@@ -196,7 +196,7 @@ Implementar `App.tsx` com os estados: `inputText: string`, `entries: WordEntry[]
 
 ---
 
-### T09 — Estilização responsiva e acessibilidade
+### [x] T09 — Estilização responsiva e acessibilidade
 
 **O que fazer:**
 Revisar todos os CSS Modules e garantir: layout funcional em 320px (mobile); tabela com scroll horizontal (`overflow-x: auto` no wrapper); foco visível em todos os elementos interativos (`:focus-visible` com outline); contraste de texto ≥ 4.5:1 em todos os elementos de texto; `<label>` associado ao textarea via `htmlFor`/`id`. Testar redimensionando a janela do browser.

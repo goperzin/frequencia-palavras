@@ -179,9 +179,9 @@ Leia o PRD.md para entender **o quê** construir. Leia o SPEC.md para entender *
 - [x] **T06** — Componente `TextInputSection` criado com 6 testes passando
 - [x] **T07** — Componente `FrequencyTable` criado com 5 testes passando
 - [x] **T08** — `App.tsx` montado com estado e fluxo completo, 6 testes passando
+- [x] **T09** — Estilização responsiva e acessibilidade concluída; 42 testes passando
 
 ### Tarefas pendentes (por ordem de execução)
-- [ ] T09 — Estilização responsiva e acessibilidade
 - [ ] T10 — Revisão final: TypeScript e testes
 
 ### Decisões técnicas tomadas (não previstas no SPEC)
