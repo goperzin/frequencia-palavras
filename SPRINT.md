@@ -107,7 +107,7 @@ Criar `src/components/CharCounter/CharCounter.tsx` e `CharCounter.module.css`. P
 
 ---
 
-### T05 — Criar componente `TranslateButton`
+### [x] T05 — Criar componente `TranslateButton`
 
 **O que fazer:**
 Criar `src/components/TranslateButton/TranslateButton.tsx` e `TranslateButton.module.css`. Props: `interface TranslateButtonProps { onClick: () => void }`. Renderizar `<button type="button">` com texto "Translate". Incluir `aria-label="Analisar frequência de palavras"`.

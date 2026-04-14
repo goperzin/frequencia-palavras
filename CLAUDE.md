@@ -175,9 +175,9 @@ Leia o PRD.md para entender **o quê** construir. Leia o SPEC.md para entender *
 - [x] **T02** — `analyzeFrequency` implementada com 13 testes passando (todos os edge cases do SPEC cobertos)
 - [x] **T03** — Componente `ErrorMessage` criado com 3 testes passando
 - [x] **T04** — Componente `CharCounter` criado com 6 testes passando
+- [x] **T05** — Componente `TranslateButton` criado com 3 testes passando
 
 ### Tarefas pendentes (por ordem de execução)
-- [ ] T05 — Criar componente `TranslateButton`
 - [ ] T06 — Criar componente `TextInputSection` *(depende de T04, T05)*
 - [ ] T07 — Criar componente `FrequencyTable`
 - [ ] T08 — Montar `App.tsx` com estado e fluxo completo *(depende de T03, T06, T07)*
